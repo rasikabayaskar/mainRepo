@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Angular JS</title>
+</head>
+<body ng-app="jsbin">
+  <div ng-controller="DemoCtrl">
+    <h1>Weather Forecast</h1>
+	<table border="2">
+	   <tr ng-repeat = "day in daysObtained">
+				<td>{{day.main.temp }}</td>
+				<td>{{day.dt_txt }}</td>
+				<td>{{day.weather[0].main}}</td>	
+        </tr>
+	</table>
+  </div>
+<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="Controller.js"></script>
+  <script>
+  </script>
+</body>
+</html>
