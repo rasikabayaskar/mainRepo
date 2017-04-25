@@ -1,3 +1,62 @@
+body
+{
+	background-image: url("images.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+
+
+#displayTable
+{
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-left: 5%;
+	overflow-y:auto; 
+	height: 100%;
+	width: 100%;
+}
+
+td,th
+{
+	border: 1px solid black;
+	text-align: center;
+}
+ th
+ {
+	color: white;
+ }
+.showTable
+{
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+	height: 450px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	
+}
+
+header
+{
+	text-align: center;
+	color: white;
+	text-transform: capitalize;
+	margin: 3% 0;
+}
+
+header button
+{
+	border-radius: 5%;
+	background-color: bisque;
+	color: black;
+	border: none;
+	padding: 3px;
+	font-weight: bold;
+}
+header input{
+	padding: 3px;
+}
+
 .clear
 {
 	background-color: bisque;
@@ -11,4 +70,12 @@
 .rain
 {
 	background-color:skyblue;
+}
+
+#convertor
+{
+	border: none;
+	border-radius: 15%;
+	font-weight: bold;
+	background-color: white;
 }
